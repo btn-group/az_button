@@ -1,5 +1,5 @@
 [package]
-name = "button"
+name = "az_button"
 version = "1.0.0"
 edition = "2021"
 authors = ["steven.chang@btn.group"]
@@ -15,7 +15,7 @@ scale-info = { version = "2.3", default-features = false, features = ["derive"],
 openbrush = { tag = "3.0.0", git = "https://github.com/727-Ventures/openbrush-contracts", default-features = false, features = ["psp22"] }
 
 [lib]
-name = "button"
+name = "az_button"
 path = "lib.rs"
 crate-type = [
     # Used for normal contract Wasm blobs.

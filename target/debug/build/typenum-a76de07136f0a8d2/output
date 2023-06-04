@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/stevenchang/Desktop/btn/aleph-zero/az_button/target/debug/build/typenum-a76de07136f0a8d2/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/stevenchang/Desktop/btn/aleph-zero/az_button/target/debug/build/typenum-a76de07136f0a8d2/out/op.rs
