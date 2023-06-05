@@ -48,14 +48,15 @@ pub mod button {
             symbol: Option<String>,
             decimal: u8,
         ) -> Self {
-            let mut _instance = Self::default();
-            _instance
-                ._mint_to(_instance.env().caller(), initial_supply)
-                .expect("Should mint");
-            _instance.metadata.name = name;
-            _instance.metadata.symbol = symbol;
-            _instance.metadata.decimals = decimal;
-            _instance
+            let mut instance = Self::default();
+            assert!(instance._init_cap(initial_supply).is_ok());
+            assert!(instance
+                ._mint_to(instance.env().caller(), initial_supply)
+                .is_ok());
+            instance.metadata.name = name;
+            instance.metadata.symbol = symbol;
+            instance.metadata.decimals = decimal;
+            instance
         }
 
         #[ink(message)]
