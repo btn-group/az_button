@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">Escrow Smart Contract for Aleph Zero</h3>
+  <h3 align="center">Button ($BTN)</h3>
   <p align="center">
     <a href="https://btn-group-hackathon.herokuapp.com/" target="_blank">Try it out</a>
   </p>
