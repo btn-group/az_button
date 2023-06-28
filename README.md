@@ -68,7 +68,7 @@ to the node's console if debugging was enabled on the node ([instructions here](
 
 For contracts that are supposed to run in production you should always build the contract with --release:
 ```sh
-cargo +stable contract build --release
+cargo contract build --release
 ```
 This will ensure that nothing unnecessary is compiled into the Wasm blob, making your contract faster and cheaper to deploy and execute.
 
