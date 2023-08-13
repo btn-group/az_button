@@ -42,6 +42,7 @@
 * [Rust](https://www.rust-lang.org/)
 * [ink!](https://use.ink/)
 * [OpenBrush](https://openbrush.io/)
+* [Cargo Contract v2.0.1](https://github.com/paritytech/cargo-contract)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -60,6 +61,7 @@ To get a local copy up and running follow these simple example steps.
 ### Checking code
 
 ```zsh
+cargo checkmate
 cargo test
 cargo sort
 ```
@@ -96,3 +98,4 @@ Note that blocks are only created when you execute a function in substrate-contr
 ## References
 
 - https://openbrush.io/
+- https://github.com/Cardinal-Cryptography/aleph-node/blob/main/contracts/wrapped_azero/lib.rs
