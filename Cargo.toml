@@ -1,8 +1,8 @@
 [package]
 name = "az_button"
-version = "1.0.0"
+version = "2.0.0"
 edition = "2021"
-authors = ["steven.chang@btn.group"]
+authors = ["steven.chang@btn.group", "lucy.berwick@btn.group"]
 
 [dependencies]
 ink = { version = "~4.0.0", default-features = false }
@@ -23,9 +23,8 @@ crate-type = [
 default = ["std"]
 std = [
     "ink/std",
+    "openbrush/std",
     "scale/std",
     "scale-info/std",
-
-    "openbrush/std",
 ]
 ink-as-dependency = []

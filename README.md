@@ -42,6 +42,7 @@
 * [Rust](https://www.rust-lang.org/)
 * [ink!](https://use.ink/)
 * [OpenBrush](https://openbrush.io/)
+* [Cargo Contract v2.0.1](https://github.com/paritytech/cargo-contract)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
