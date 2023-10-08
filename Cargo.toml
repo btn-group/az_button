@@ -2,11 +2,7 @@
 name = "az_button"
 version = "2.0.0"
 edition = "2021"
-<<<<<<< HEAD
 authors = ["btn.group"]
-=======
-authors = ["steven.chang@btn.group", "lucy.berwick@btn.group"]
->>>>>>> 3367dfb (v2 emit events (#3))
 
 [dependencies]
 ink = { version = "4.2.1", default-features = false }
