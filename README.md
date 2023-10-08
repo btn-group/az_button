@@ -44,6 +44,7 @@ PSP22 smart contract for Button ($BTN) on Aleph Zero.
 cargo install --force --locked cargo-contract --version 2.0.1
 ```
 * [OpenBrush](https://openbrush.io/)
+* [Cargo Contract v2.0.1](https://github.com/paritytech/cargo-contract)
 
 ### Checking code
 
