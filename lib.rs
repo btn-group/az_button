@@ -9,8 +9,7 @@ pub mod button {
     };
     use openbrush::{
         contracts::psp22::{
-            extensions::{burnable::*, metadata::*},
-            Internal, PSP22Error, Transfer as PSP22Transfer,
+            extensions::metadata::*, Internal, PSP22Error, Transfer as PSP22Transfer,
         },
         traits::{Storage, String},
     };
@@ -50,7 +49,6 @@ pub mod button {
         cap: Balance,
     }
     impl PSP22 for Button {}
-    impl PSP22Burnable for Button {}
     impl PSP22Metadata for Button {}
     impl PSP22Transfer for Button {
         fn _before_token_transfer(
