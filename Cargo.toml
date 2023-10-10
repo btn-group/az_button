@@ -1,18 +1,17 @@
 [package]
 name = "az_button"
-version = "2.0.0"
+version = "3.0.0"
 edition = "2021"
 authors = ["btn.group"]
 
 [dependencies]
-ink = { version = "4.2.1", default-features = false }
+ink = { version = "4.3.0", default-features = false }
 # Include brush as a dependency and enable default implementation for PSP22 via brush feature
-openbrush = { git = "https://github.com/727-Ventures/openbrush-contracts", tag = "3.1.1", default-features = false, features = ["psp22"] }
+openbrush = { git = "https://github.com/727-Ventures/openbrush-contracts", tag = "4.0.0", default-features = false, features = ["psp22"] }
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
 scale-info = { version = "2.6", default-features = false, features = ["derive"], optional = true }
 
 [lib]
-name = "az_button"
 path = "lib.rs"
 crate-type = [
     # Used for normal contract Wasm blobs.
