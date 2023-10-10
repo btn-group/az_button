@@ -39,12 +39,11 @@ PSP22 smart contract for Button ($BTN) on Aleph Zero.
 * [Rust](https://www.rust-lang.org/)
 * [Cargo](https://doc.rust-lang.org/cargo/)
 * [ink!](https://use.ink/)
-* [Cargo Contract v2.0.1](https://github.com/paritytech/cargo-contract)
-```zsh
-cargo install --force --locked cargo-contract --version 2.0.1
-```
 * [OpenBrush](https://openbrush.io/)
-* [Cargo Contract v2.0.1](https://github.com/paritytech/cargo-contract)
+* [Cargo Contract v3.2.0](https://github.com/paritytech/cargo-contract)
+```zsh
+cargo install --force --locked cargo-contract --version 3.2.0
+```
 
 ### Checking code
 
@@ -68,4 +67,5 @@ substrate-contracts-node --dev
 ## References
 
 - https://openbrush.io/
-- https://github.com/Cardinal-Cryptography/aleph-node/blob/main/contracts/wrapped_azero/lib.rs
+- https://github.com/Brushfam/openbrush-contracts/tree/4.0.0
+- https://github.com/Brushfam/openbrush-contracts/blob/21fdff1c6a56640c0767a30fe7ace3d09057404b/tests/psp22.rs#L76
