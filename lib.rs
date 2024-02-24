@@ -1,5 +1,7 @@
 #![cfg_attr(not(feature = "std"), no_std, no_main)]
 
+pub use self::button::ButtonRef;
+
 #[openbrush::implementation(PSP22, PSP22Metadata, PSP22Capped)]
 #[openbrush::contract]
 pub mod button {
